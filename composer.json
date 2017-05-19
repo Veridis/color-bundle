@@ -1,0 +1,32 @@
+{
+    "name" : "veridis/color-bundle",
+    "type" : "symfony-bundle",
+    "description" : "Symfony Bundle for color manipulation",
+    "keywords" : ["Symfony", "Color"],
+    "homepage" : "https://github.com/Veridis/color-bundle",
+    "license" : "MIT",
+    "authors" :
+    [
+        {
+            "name" : "Veridis",
+            "email" : "alex.makdessi@me.com",
+            "role" : "Developer"
+        }
+    ],
+    "minimum-stability" : "beta",
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/framework-bundle": "~2.8|~3.0",
+        "symfony/form": "~2.8|~3.0",
+        "twig/twig": "~1.12|~2",
+        "mikealmond/color": "^0.0.4"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Veridis\\ColorBundle\\": ""
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}

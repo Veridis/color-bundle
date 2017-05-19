@@ -1,0 +1,5 @@
+services:
+    veridis_color.twig.extension:
+        class: Veridis\ColorBundle\Twig\Extension\ColorExtension
+        tags:
+            - { name: twig.extension }
